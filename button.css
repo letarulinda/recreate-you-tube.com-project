@@ -7,6 +7,7 @@
   border-radius: 2px;
   cursor: pointer;
   margin-right: 8px;
+  transition: opacity 1s;
 }
 .subscribe-button:hover {
   opacity: 0.8;
@@ -24,6 +25,7 @@
   width: 62px;
   border-radius: 2px;
   cursor: pointer;
+  transition: background-colr 1s, 1s;
 }
 .Join-button:hover {
   background-color: blue;
