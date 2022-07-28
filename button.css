@@ -1,9 +1,11 @@
 .subscribe-button {
-  background-color: red;
+  background-color: rgba(204, 0, 0);
   color: white;
   border: none;
-  height: 36px;
-  width: 105px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
   border-radius: 2px;
   cursor: pointer;
   margin-right: 8px;
@@ -16,13 +18,15 @@
   opacity: 0.5;
 }
 .Join-button {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border-color: blue;
   border-style: solid;
   border-width: 1px;
   color: blue;
-  height: 36px;
-  width: 62px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 15px;
+  padding-right: 15px;
   border-radius: 2px;
   cursor: pointer;
   transition: background-colr 0.15s, 0.15s;
@@ -35,11 +39,13 @@
   opacity: 0.7;
 }
 .Tweet-button {
-  background-color: blue;
+  background-color: rgb(29, 155, 240);
   color: white;
   border: none;
-  height: 36px;
-  width: 74px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 16px;
+  padding-right: 16px;
   border-radius: 18px;
   font-weight: bold;
   font-size: 15px;
