@@ -7,7 +7,7 @@
   border-radius: 2px;
   cursor: pointer;
   margin-right: 8px;
-  transition: opacity 1s;
+  transition: opacity 0.15s;
 }
 .subscribe-button:hover {
   opacity: 0.8;
@@ -25,7 +25,7 @@
   width: 62px;
   border-radius: 2px;
   cursor: pointer;
-  transition: background-colr 1s, 1s;
+  transition: background-colr 0.15s, 0.15s;
 }
 .Join-button:hover {
   background-color: blue;
@@ -45,4 +45,8 @@
   font-size: 15px;
   cursor: pointer;
   margin-left: 8px;
+  transition: box-shadow 0.15s;
+}
+.Tweet-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 }
