@@ -4,9 +4,21 @@
   margin-bottom: 12px;
 }
 .search-bar {
-  font-size: 20px;
+  font-size: 16px;
   margin-left: 12px;
   display: block;
+  flex: 1;
+  height: 45px;
+  padding-left: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0.05);
+}
+.search-bar::placeholder {
+  font-family: roboto, Arial, Helvetica, sans-serif;
+  font-size: 16px;
 }
 .video-preview {
 }
@@ -49,4 +61,50 @@ p {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap: 40px;
+}
+body {
+  margin: 0px;
+}
+.header {
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.left-section {
+  display: flex;
+  align-items: center;
+}
+.middle-section {
+  background-color: pink;
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+}
+.right-section {
+  background-color: lightblue;
+  width: 200px;
+}
+.hamburger-menu {
+  height: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.youtube-log {
+  height: 20px;
+}
+.search-button {
+  height: 40px;
+  width: 60px;
+}
+.voice-search-button {
+  height: 40px;
+  width: 40px;
+}
+.search-icon {
+  height: 25px;
+  margin-top: 4px;
 }
